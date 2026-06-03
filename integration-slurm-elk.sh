@@ -1,10 +1,9 @@
 #!/bin/bash
 
 # Configure the <IP>, <USER>, and <PASSWORD> fields
-ELASTICSEARCH_URL="http://<ip>:9200/slurm_jobs/_doc"
-USER="<user>"
-PASSWORD="<password>"
-
+ELASTICSEARCH_URL="http://<IP>:9200/slurm_jobs/_doc"
+USER="<USER>"
+PASSWORD="<PASSWORD>"
 
 # Generate an ISO 8601 UTC timestamp and initialize the JSON payload
 timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
@@ -38,5 +37,3 @@ fi
 curl -u "$USER:$PASSWORD" -X POST "$ELASTICSEARCH_URL" \
      -H "Content-Type: application/json" \
      -d "$json"
-
-
