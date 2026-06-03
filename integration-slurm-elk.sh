@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Configure the <IP>, <USER>, and <PASSWORD> fields
 ELASTICSEARCH_URL="http://<ip>:9200/slurm_jobs/_doc"
 USER="<user>"
 PASSWORD="<password>"
