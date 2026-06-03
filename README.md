@@ -42,7 +42,7 @@ cp integration-slurm-elk.sh /usr/local/bin/
 chmod 755 /usr/local/bin/integration-slurm-elk.sh
 ```
 
-Edit the script and configure <IP>, <user> and <password>:
+Edit the script and configure IP, user and password:
 
 ```bash
 ELASTICSEARCH_URL="http://<IP>:9200/slurm_jobs/_doc"
