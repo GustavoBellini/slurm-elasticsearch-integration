@@ -63,7 +63,7 @@ The script collects all environment variables provided by SLURM and sends them a
   "@timestamp": "2026-06-02T15:00:00Z",
   "JOBID": "12345",
   "USERNAME": "user01",
-  "JOBNAME": "my_job,
+  "JOBNAME": "my_job",
   "JOBSTATE": "COMPLETED",
   "NODES": "node01",
   "SUBMIT": "1780488093",
