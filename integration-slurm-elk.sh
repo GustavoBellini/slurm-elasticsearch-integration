@@ -25,7 +25,7 @@ done
 json="${json%,}}"
 
 # Optional debug log
-#echo "Enviando JSON: $json" >> /tmp/integration-slurm-elk.log
+#echo "Sending JSON payload: $json" >> /tmp/integration-slurm-elk.log
 
 # Abort if the JSON payload is empty
 if [[ "$json" == "{}" ]]; then
